@@ -13,6 +13,6 @@ router.get("/blogs", getAllBlogPosts);
 router.get("/blogs/:id", getSingleBlogPost);
 router.post("/blogs", createBlog);
 router.put("/blogs", updateBlog);
-router.delete("/blogs", deleteBlog);
+router.delete("/blogs/:id", deleteBlog);
 
 export default router;
